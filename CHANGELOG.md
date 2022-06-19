@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.2.0 (2022-06-19)
+
+
+### Features
+
+* remove jest and testing tools ([fde1b14](https://github.com/IGMLabs/ab-node-astro-bookings/commit/fde1b142035efa49c5816036bb6d84880a681507))
+
 ### [1.1.3](https://github.com/AtomicBuilders/lepton/compare/v1.1.2...v1.1.3) (2021-06-21)
 
 ### [1.1.2](https://github.com/AtomicBuilders/lepton/compare/v1.1.1...v1.1.2) (2021-06-21)
