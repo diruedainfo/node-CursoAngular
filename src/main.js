@@ -1,3 +1,4 @@
 import { getGreetings } from "./lib.js";
-const greetings = getGreetings("bitAdemy");
+
+const greetings = getGreetings("IGM labs");
 console.log(greetings);

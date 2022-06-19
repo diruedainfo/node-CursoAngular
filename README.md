@@ -1,4 +1,4 @@
-# lepton
+# Node Astro Bookings
 
 Fundamental JavaScript boilerplate
 

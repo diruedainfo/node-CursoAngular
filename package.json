@@ -1,27 +1,24 @@
 {
-  "name": "lepton",
+  "name": "ab-node-astro-bookings",
   "version": "1.1.3",
   "description": "Fundamental Javascript boilerplate",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/main.js",
-    "test": "jest",
-    "test:dev": "jest --watch",
     "prerelease": "standard-version ",
     "release": "git push --follow-tags origin main",
     "update": "ncu -u"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtomicBuilders/lepton.git"
+    "url": "git+https://github.com/IGMLabs/ab-node-astro-bookings.git"
   },
   "keywords": [
     "javascript",
     "eslint",
     "prettier",
     "standard-version",
-    "jest",
     "boilerplate",
     "template"
   ],
@@ -32,36 +29,15 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomicBuilders/lepton/issues"
+    "url": "https://github.com/IGMLabs/ab-node-astro-bookings/issues"
   },
-  "homepage": "https://github.com/AtomicBuilders/lepton#readme",
+  "homepage": "https://github.com/IGMLabs/ab-node-astro-bookings#readme",
   "devDependencies": {
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^28.1.1",
-    "jest-esm-transformer": "^1.0.0",
     "npm-check-updates": "^14.0.1",
     "prettier": "^2.7.1",
     "standard-version": "^9.5.0"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "mjs"
-    ],
-    "transform": {
-      "^.+\\.js$": "jest-esm-transformer"
-    },
-    "coverageThreshold": {
-      "global": {
-        "branches": 80,
-        "functions": 80,
-        "lines": 80,
-        "statements": -10
-      }
-    },
-    "verbose": true
   }
 }
