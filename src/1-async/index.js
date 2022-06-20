@@ -34,12 +34,13 @@ setTimeout(sum, twoSeconds, arg1, arg2);
 console.log("Before with async iterator");
 let counter = 0;
 const maxCounter = 4;
-const intervalId = setInterval(() => {
+function printCounter() {
   console.log(`Hello ${counter}`);
   counter++;
   if (counter === maxCounter) {
     clearInterval(intervalId);
   }
-}, twoSeconds);
+}
+const intervalId = setInterval(printCounter, twoSeconds);
 
 console.log("After all the code");
