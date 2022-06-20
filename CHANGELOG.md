@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/IGMLabs/ab-node-astro-bookings/compare/v1.2.0...v1.3.0) (2022-06-20)
+
+
+### Features
+
+* asuync interval ([ba5f0cc](https://github.com/IGMLabs/ab-node-astro-bookings/commit/ba5f0cc8d24b33351b73cc55862ec5274cb39889))
+* hello async ([8aaf33e](https://github.com/IGMLabs/ab-node-astro-bookings/commit/8aaf33e4b32f8c956c9e26946b1166ba008978c5))
+
 ## 1.2.0 (2022-06-19)
 
 
