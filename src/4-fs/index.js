@@ -18,14 +18,19 @@ function printFile(err, fileContent) {
 
 fs.readFile(scriptFile, printFile);
 
-function onWriteEnd() {
-  console.log("Archivo copiado");
+function onWriteEnd(err) {
+  if (err) {
+    console.log(`Error: ${err}`);
+  } else {
+    console.log("Archivo copiado");
+  }
 }
 function copyFile(err, fileContent) {
   if (err) {
     console.log(`Error: ${err}`);
   } else {
     fs.writeFile(`${scriptFile}.copy.txt`, fileContent, onWriteEnd);
+    console.log("Copiando archivo");
   }
 }
 
