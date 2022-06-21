@@ -6,7 +6,7 @@ fs.readFile(scriptFile)
     console.log(fileContent.toString());
   })
   .catch((err) => {
-    console.log(`Error: ${err}`);
+    console.log(`💣: ${err}`);
   })
   .finally(() => {
     console.log("Terminado");
