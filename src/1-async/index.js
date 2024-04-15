@@ -13,6 +13,7 @@ function printHello(name) {
 }
 setTimeout(printHello, twoSeconds);
 
+
 console.log("Before with arrow function expression");
 const printHello2 = () => console.log("Hello2");
 setTimeout(printHello2, twoSeconds);
@@ -31,6 +32,12 @@ function sum(a, b) {
 }
 setTimeout(sum, twoSeconds, arg1, arg2);
 
+// setInterval es como setTimeout, pero no para nunca
+//const id = setInterval(() => console.log("Hello"),2000);
+//clearInterval(id);
+
+
+/*
 console.log("Before with async iterator");
 let counter = 0;
 const maxCounter = 4;
@@ -41,6 +48,6 @@ function printCounter() {
     clearInterval(intervalId);
   }
 }
-const intervalId = setInterval(printCounter, twoSeconds);
+const intervalId = setInterval(printCounter, twoSeconds);*/
 
 console.log("After all the code");
