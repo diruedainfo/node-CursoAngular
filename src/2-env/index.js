@@ -10,7 +10,6 @@ console.log(global.user);
 console.log(`node: ${process.argv[0]}`);
 const program = process.argv[1];
 console.log(`program: ${program}`);
-
 process.argv.forEach((item, index) => {
   console.log(`Pos: ${index} Value: ${item}`);
 });
@@ -24,7 +23,9 @@ const cliente = {
   nombre: args[0],
   saldo: args[1],
 };
+
 global.cliente = cliente;
 console.log(`Hola ${args[0]}`);
 console.log(`Hola ${args[1]}`);
 console.log(`Hola ${JSON.stringify(global.cliente)}`);
+
