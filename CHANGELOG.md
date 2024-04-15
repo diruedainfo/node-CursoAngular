@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/IGMLabs/ab-node-astro-bookings/compare/v1.4.0...v1.5.0) (2024-04-15)
+
+
+### Features
+
+* fix ([caef0c1](https://github.com/IGMLabs/ab-node-astro-bookings/commit/caef0c11442463969feb1ca03947fdf6ee17ef4f))
+
 ## [1.4.0](https://github.com/IGMLabs/ab-node-astro-bookings/compare/v1.3.0...v1.4.0) (2024-04-15)
 
 
